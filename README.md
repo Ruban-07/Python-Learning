@@ -1,6 +1,6 @@
 # Python Learning
 
-![Python](https://www.i2tutorials.com/wp-content/media/2020/05/Coding-Styles-of-Python-Programming-Language-i2tutorials.jpg)
+![Python](https://www.python.org/static/img/python-logo.png)
 
 In this learning we're using python `3.14.2`
 
