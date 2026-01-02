@@ -49,3 +49,56 @@ Data Types:
 - **`memoryview`** – A view object for binary data, used to manipulate slices of large binary data without copying.
 
 - **`None`** – Represents the absence of a value, used to signify "nothing" or a missing value.
+
+## Working with strings
+
+There are lot of in-built functions are there for string, let's see some of them.
+
+Upper Case:
+
+`.upper()` will help to change the string to uppercase.
+
+```python
+print(my_name.upper())
+```
+
+Lower Case:
+
+`.lower()` will help to change the string to lowercase.
+
+```python
+print(my_name.lower())
+```
+
+Check the string is in uppercase or not:
+
+`.isupper()` will help to check whether the string is uppercase or not, it's a boolean function, so it'll return only `True` or `False`.
+
+```python
+print(my_name.upper().isupper())
+```
+
+Check the string is in lowercase or not:
+
+`.islower()` will help to check whether the string is lowercase or not, it's a boolean function, so it'll return only `True` or `False`.
+
+```python
+print(my_name.upper().islower())
+```
+
+To Find the length of the string:
+
+`len()` will help to check the length of a string.
+
+```python
+print(len(my_name)) # it'll tell the total characters in that string including whitespaces
+```
+
+To Replace a character or string:
+
+`replace()` will help us to replace a string with an another string
+
+```python
+my_company = "Icore Technology"
+print(my_name.replace("Technology","Software"))
+```
