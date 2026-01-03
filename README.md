@@ -385,3 +385,13 @@ def my_wishes(name,age):
 
 my_wishes("Ruban",24) # Output: Happy Morning Ruban, you are 24
 ```
+
+## Return Statement:
+
+```python
+def cube_number(num):
+    return num*num*num
+
+result = cube_number(2)
+print(result) # Output: 8
+```
