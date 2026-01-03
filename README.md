@@ -164,3 +164,12 @@ To do more mathematical operations, we can import math and use it like this:
 ```python
 from math import *
 ```
+
+Getting Input From Users:
+
+`input()` will help us to get the input from user.
+
+```python
+name = input("Enter your name: ")
+print("Hello " + name + "!")
+```
