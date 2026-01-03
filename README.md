@@ -165,7 +165,7 @@ To do more mathematical operations, we can import math and use it like this:
 from math import *
 ```
 
-Getting Input From Users:
+## Getting Input From Users:
 
 `input()` will help us to get the input from user.
 
@@ -174,7 +174,7 @@ name = input("Enter your name: ")
 print("Hello " + name + "!")
 ```
 
-Building a Basic Calculator:
+## Building a Basic Calculator:
 
 ```python
 num1 = input("Enter your first number: ")
@@ -205,7 +205,7 @@ result = float(num1) + float(num2)
 print(result) # Output: 10.5
 ```
 
-Mad Libs Game:
+## Mad Libs Game:
 
 ```python
 color = input("Enter your color: ")
@@ -215,4 +215,20 @@ name = input("Enter your name: ")
 print("My car is "+ color + " color")
 print(action + " Fast")
 print("I Love " + name)
+```
+
+## Lists:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+print(friends) # Output: ["Rohith", "Sanjay", "Akbar", "Deepak"]
+print(friends[1]) # Output: Sanjay
+print(friends[0]) # Output: Rohith
+print(friends[-1]) # Output: Deepak
+print(friends[1:]) # Output: ["Sanjay", "Akbar", "Deepak"]
+print(friends[1:3]) # Output: ["Sanjay", "Akbar"]
+
+friends[2] = "Noorul"
+print(friends) # Output: ["Rohith", "Sanjay", "Noorul", "Deepak"]
 ```
