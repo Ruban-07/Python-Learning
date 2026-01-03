@@ -354,3 +354,34 @@ coordinates = (2,3)
 
 print(coordinates[0]) # Output: 2
 ```
+
+## Functions:
+
+To write a function in `python`, we need to use `def` keyword. And followed by `def` keyword `function_name` with `()` parentheses and end with `:` colon, from next line with proper indentation, the function begins.
+
+```python
+# Function Declaration
+def my_wishes():
+    print("Happy Morning!")
+
+# Function Calling
+my_wishes() # Output: Happy Morning!
+```
+
+Passing a parameter in a function:
+
+```python
+def my_wishes(name):
+    print("Happy Morning " + name + "!")
+
+my_wishes("Ruban") # Output: Happy Morning Ruban!
+```
+
+Passing Multiple Parameter in a functions:
+
+```python
+def my_wishes(name,age):
+    print("Happy Morning " + name + ", you are " + str(age))
+
+my_wishes("Ruban",24) # Output: Happy Morning Ruban, you are 24
+```
