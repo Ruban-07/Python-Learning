@@ -102,3 +102,65 @@ To Replace a character or string:
 my_company = "Icore Technology"
 print(my_name.replace("Technology","Software"))
 ```
+
+To change other type to `string`:
+
+`str()` will help us to type conversion to `string`.
+
+```python
+my_number = 20
+print(my_number) # Output: 20
+
+str(my_number)
+print(my_number) # Output: "20"
+```
+
+## Working with number
+
+To find the absolute value of a number, it means like positive number.
+
+`abs()` will help to find the absolute value of a number.
+
+```python
+my_number = 7.5
+print(abs(my_number))
+```
+
+To find the value of power:
+
+`pow()` will help us to find the number power.
+
+```python
+print(pow(3,2)) #Output: 9
+```
+
+To find the large number:
+
+`max()` it'll help us to find the maximum of 2 numbers.
+
+```python
+print(max(4,6)) #6
+```
+
+To find the small number:
+
+`max()` it'll help us to find the minimum of 2 numbers.
+
+```python
+print(min(4,6)) #4
+```
+
+To round a decimal number properly:
+
+`round()` will help us to round the number.
+
+```python
+print(round(7.7)) # Output: 8
+print(round(7.3)) # Output: 7
+```
+
+To do more mathematical operations, we can import math and use it like this:
+
+```python
+from math import *
+```
