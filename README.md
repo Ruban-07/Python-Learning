@@ -232,3 +232,115 @@ print(friends[1:3]) # Output: ["Sanjay", "Akbar"]
 friends[2] = "Noorul"
 print(friends) # Output: ["Rohith", "Sanjay", "Noorul", "Deepak"]
 ```
+
+## List Functions:
+
+To extend a list with an another list, we can use `.extend()`:
+
+```python
+lucky_numbers = [7,5,3,1,8]
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+friends.extend(lucky_numbers)
+
+print(friends) # Output: ['Rohith', 'Sanjay', 'Akbar', 'Deepak', 7, 5, 3, 1, 8]
+```
+
+To Add another Item in the List, we can use `append()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+friends.append("Yasif")
+
+print(friends) # Output: ['Rohith', 'Sanjay', 'Akbar', 'Deepak', 'Yasif']
+```
+
+To insert a item in a position of list we can use `insert()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+friends.insert(1,"Yasif")
+
+print(friends) # Output: ['Rohith', 'Yasif', 'Sanjay', 'Akbar', 'Deepak']
+```
+
+To Remove a Item from a list, we can use `remove()`:
+
+```python
+friends = ["Rohith", "Yasif", "Sanjay", "Akbar", "Deepak"]
+
+friends.remove("Yasif")
+
+print(friends) # Output: ['Rohith', 'Sanjay', 'Akbar', 'Deepak']
+```
+
+To Clear the list, we can use `clear()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+friends.clear()
+
+print(friends) # Output: []
+```
+
+To Remove Last element in the list, we can use `pop()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak", "Yasif"]
+
+friends.pop()
+
+print(friends) # Output: ["Rohith", "Sanjay", "Akbar", "Deepak"]
+```
+
+To find an index of an item in the list, we can use `index()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+print(friends.index("Akbar")) # Output: 2
+```
+
+To find how many time an list item occurs, we can use `count()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Sanjay", "Deepak", "Sanjay"]
+
+print(friends.count("Sanjay")) # Output: 3
+```
+
+To sort a list in ascending order, we can use `sort()`:
+
+```python
+lucky_numbers = [7,5,3,1,8]
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+lucky_numbers.sort()
+friends.sort()
+
+print(lucky_numbers) # [1, 3, 5, 7, 8]
+print(friends) # Output: ['Akbar', 'Deepak', 'Rohith', 'Sanjay']
+```
+
+To reverse order of the list, we can use `reverse()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+friends.reverse()
+
+print(friends) # Output: ['Deepak', 'Akbar', 'Sanjay', 'Rohith']
+```
+
+To copy a list, we can use `copy()`:
+
+```python
+friends = ["Rohith", "Sanjay", "Akbar", "Deepak"]
+
+friends2 = friends.copy()
+
+print(friends2) # Output: ['Rohith', 'Sanjay', 'Akbar', 'Deepak']
+```
