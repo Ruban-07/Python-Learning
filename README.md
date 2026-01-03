@@ -344,3 +344,13 @@ friends2 = friends.copy()
 
 print(friends2) # Output: ['Rohith', 'Sanjay', 'Akbar', 'Deepak']
 ```
+
+## Tuples:
+
+The `tuples` are similar to `lists`, but `tuples` values are not change, we can't change the value of `tuples` once assigned. Other than that same as `lists`
+
+```python
+coordinates = (2,3)
+
+print(coordinates[0]) # Output: 2
+```
