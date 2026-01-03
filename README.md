@@ -173,3 +173,34 @@ Getting Input From Users:
 name = input("Enter your name: ")
 print("Hello " + name + "!")
 ```
+
+Building a Basic Calculator:
+
+```python
+num1 = input("Enter your first number: ")
+num2 = input("Enter your second number: ")
+
+result = num1 + num2
+#Input:
+#Num1: 7
+#Num2: 3
+print(result) # Output: 73
+
+result = int(num1) + int(num2)
+#Input:
+#Num1: 7
+#Num2: 3
+print(result) # Output: 10
+
+result = int(num1) + int(num2)
+#Input:
+#Num1: 7.5
+#Num2: 3
+print(result) # Output: ERROR
+
+result = float(num1) + float(num2)
+#Input:
+#Num1: 7.5
+#Num2: 3
+print(result) # Output: 10.5
+```
