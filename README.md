@@ -395,3 +395,56 @@ def cube_number(num):
 result = cube_number(2)
 print(result) # Output: 8
 ```
+
+## If Statements:
+
+```python
+is_male = False
+
+if is_male:
+    print("You're male!") # if true this will be printed
+else:
+    print("You're not a male!") # if false this will be printed
+```
+
+To check any one condition satisfies, we can use `or` keyword:
+
+```python
+is_male = False
+is_tall = True
+
+if is_male or is_tall:
+    print("You're a tall male!")
+else:
+    print("You're neither male nor tall!")
+```
+
+To check both the conditions satisfies, we can use `and` keyword:
+
+```python
+is_male = False
+is_tall = True
+
+if is_male and is_tall:
+    print("You're a tall male!")
+else:
+    print("You're neither male nor tall!")
+```
+
+Else if Condition for adding more complexity:
+
+```python
+is_male = False
+is_tall = True
+
+if is_male and is_tall:
+    print("You're male!")
+elif is_male and not(is_tall):
+    print("You're short male!")
+elif not(is_male) and is_tall:
+    print("You're not male but tall!")
+else:
+    print("You're neither male nor tall!")
+
+# Output: You're not male but tall!
+```
