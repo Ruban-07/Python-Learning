@@ -485,3 +485,28 @@ elif operator == '/':
 else:
     print("Enter proper operator symbol")
 ```
+
+## Dictionaries:
+
+The `Dictionaries` consists of key value pairs, which will be wrapped in the curly braces and the key should be unique.
+
+```python
+monthConversations = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December"
+}
+
+print(monthConversations.get('ball','Not a valid key')) # Output: Not a valid key
+print(monthConversations.get('Sep','Not a valid key')) # Output: September
+
+```
