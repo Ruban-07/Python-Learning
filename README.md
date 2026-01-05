@@ -464,3 +464,24 @@ def find_max_num(num1,num2, num3):
 
 print(find_max_num(200,302,250))
 ```
+
+## Building a Better Calculator:
+
+This is the enhanced version of previous calculator, which can get an input of 2 number and the operator to perform operation from the user.
+
+```python
+num1 = float(input("Enter your first number: "))
+num2 = float(input("Enter your second number: "))
+operator = input("Enter your operator: ")
+
+if operator == '+':
+    print(num1 + num2)
+elif operator == '-':
+    print(num1-num2)
+elif operator == '*':
+    print(num1*num2)
+elif operator == '/':
+    print(num1/num2)
+else:
+    print("Enter proper operator symbol")
+```
