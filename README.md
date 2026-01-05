@@ -510,3 +510,30 @@ print(monthConversations.get('ball','Not a valid key')) # Output: Not a valid ke
 print(monthConversations.get('Sep','Not a valid key')) # Output: September
 
 ```
+
+## While Loop:
+
+This is the simple while loop in python.
+
+```python
+count = 1
+
+while count <= 10:
+    print(count)
+    count+=1
+
+print("Loop Completed!")
+
+# Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Loop Completed!
+```
