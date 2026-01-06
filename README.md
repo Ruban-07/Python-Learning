@@ -561,3 +561,59 @@ if out_of_guesses:
 else:
     print("Wow, you won the game!")
 ```
+
+## For Loop:
+
+```python
+for letter in "Ruban":
+    print(letter)
+
+# Output:
+R
+u
+b
+a
+n
+```
+
+```python
+cars = ["Bmw","Benz", "Audi", "Rolls Royce"]
+
+for car in cars:
+    print(car)
+
+# Output:
+
+Bmw
+Benz
+Audi
+Rolls Royce
+```
+
+```python
+cars = ["Bmw","Benz", "Audi", "Rolls Royce"]
+
+for car in range(len(cars)):
+    print(cars[car])
+
+# Output:
+Bmw
+Benz
+Audi
+Rolls Royce
+```
+
+```python
+for index in range(5):
+    if index == 0:
+        print("First Iteration!")
+    else:
+        print("Not a First Iteration!")
+
+# Output:
+First Iteration!
+Not a First Iteration!
+Not a First Iteration!
+Not a First Iteration!
+Not a First Iteration!
+```
