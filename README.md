@@ -617,3 +617,29 @@ Not a First Iteration!
 Not a First Iteration!
 Not a First Iteration!
 ```
+
+## Exponent Function:
+
+```python
+def raise_to_power(base_number,power_number):
+    result = 1
+    for index in range(power_number):
+        result = result * base_number
+    return result
+
+print(raise_to_power(2,3))
+# Output:
+8
+```
+
+The above function can be achieved by below function:
+
+```python
+def raise_to_power_by_exponent(base_number,power_number):
+    return print(base_number**power_number)
+
+raise_to_power_by_exponent(2,3)
+
+# Output:
+8
+```
