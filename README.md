@@ -643,3 +643,64 @@ raise_to_power_by_exponent(2,3)
 # Output:
 8
 ```
+
+## 2D Lists and Nested Loops:
+
+2D Lists:
+
+```python
+number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+
+print(number_grid[1][1])
+
+# Output:
+5
+```
+
+```python
+number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+
+for row in number_grid:
+    print(row)
+
+# Output:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+[0]
+```
+
+```python
+number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+
+for row in number_grid:
+    for col in row:
+        print(col)
+
+# Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+```
