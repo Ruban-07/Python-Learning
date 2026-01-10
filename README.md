@@ -727,3 +727,17 @@ print(translate_word(input("Enter your word: ")))
 Enter your word: Rocket
 Rgckgt
 ```
+
+## Comments:
+
+There are single line comment and multi-line in python. The Single line comment is recommend for multi-line comment
+
+```python
+#  Single Line Comment
+
+'''
+This is
+the multi-line
+comments
+'''
+```
