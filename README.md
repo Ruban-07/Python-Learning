@@ -845,3 +845,31 @@ new_file.write("<p>This is a HTML File</p")
 #Output: HTML file created in the same directory with the below content:
 <p>This is a HTML File</p
 ```
+
+## Modules and Pip:
+
+To import local module:
+
+```python
+#utils.py
+
+def find_the_sum(num_1,num_2):
+    return num_1 + num_2
+```
+
+```python
+# import and usage
+
+import utils
+print(utils.find_the_sum(1,2))
+```
+
+Python Module importing:
+
+There are more In-Built [Python Modules](https://docs.python.org/3/py-modindex.html), which we can easily use it in our applications.
+
+To install external other packages, use `pip` to install:
+
+```python
+pip install python-docx
+```
