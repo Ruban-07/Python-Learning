@@ -741,3 +741,50 @@ the multi-line
 comments
 '''
 ```
+
+## Try and Except:
+
+The `try` and `except` will help us to avoid application crashes. It'll help us to handle errors properly.
+
+```python
+try:
+    number = int(input("Enter your number: "))
+    print(number)
+
+except:
+    print("Invalid Input")
+```
+
+There are some exception error handling is provided by python, we can look into it:
+
+```python
+try:
+    answer = 10/0
+    number = int(input("Enter your number: "))
+    print(number)
+
+except ZeroDivisionError as error:
+    print("ERROR: " + str(error))
+
+except ValueError as error:
+    print("ERROR: " + str(error))
+
+# Output:
+ERROR: division by zero
+```
+
+```python
+try:
+    answer = 10
+    number = int(input("Enter your number: ")) # if your in is string - car
+    print(number)
+
+except ZeroDivisionError as error:
+    print("ERROR: " + str(error))
+
+except ValueError as error:
+    print("ERROR: " + str(error))
+
+# Output:
+ERROR: invalid literal for int() with base 10: 'car'
+```
