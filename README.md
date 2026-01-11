@@ -873,3 +873,36 @@ To install external other packages, use `pip` to install:
 ```python
 pip install python-docx
 ```
+
+## Classes and Objects:
+
+To implement class and use it wherever we want like this:
+
+This is `Classroom.py` file:
+
+```python
+class Student:
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+
+class Teacher:
+    def __init__(self, name, subject, experience):
+        self.name = name
+        self.subject = subject
+        self.experience = experience
+```
+
+We can use like this:
+
+```python
+from Classroom import Student, Teacher
+
+student_1 = Student("Ruban Raghavendar", "Computer Applications","8.7",True)
+teacher_1 = Teacher("Sanjay", "Physics", 20)
+
+print(student_1.name)
+print(teacher_1.experience)
+```
