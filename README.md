@@ -802,4 +802,46 @@ employee_file = open("employees.txt","r")
 for employee in employee_file.readlines():
     print(employee)
 employee_file.close()
+#Output:
+Ruban - App Developer
+
+Rohith - Designer
+
+Sanjay - Frontend Developer
+
+Gibson - Backend Developer
+
+Vinayak - DevOps
+```
+
+## Writing to Files:
+
+This will help to append another line in existing file:
+
+```python
+employees_file = open("employees.txt","a")
+employees_file.write("\nVijay - Testing")
+
+#Output:
+Ruban - App Developer
+
+Rohith - Designer
+
+Sanjay - Frontend Developer
+
+Gibson - Backend Developer
+
+Vinayak - DevOps
+
+Vijay - Testing
+```
+
+This will create a new file with our content, let's create a HTML file with paragraph tag:
+
+```python
+new_file = open("index.html","w")
+new_file.write("<p>This is a HTML File</p")
+
+#Output: HTML file created in the same directory with the below content:
+<p>This is a HTML File</p
 ```

@@ -3,3 +3,4 @@ Rohith - Designer
 Sanjay - Frontend Developer
 Gibson - Backend Developer
 Vinayak - DevOps
+Vijay - Testing
