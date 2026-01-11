@@ -906,3 +906,66 @@ teacher_1 = Teacher("Sanjay", "Physics", 20)
 print(student_1.name)
 print(teacher_1.experience)
 ```
+
+## Building a Multiple Choice Quiz:
+
+`Question` class
+
+```python
+class Question:
+    def __init__(self,prompt,answer):
+        self.prompt = prompt
+        self.answer = answer
+```
+
+The Multi Choice Test:
+
+```python
+from Classroom import Question
+
+question_prompts = [
+    "What is the color of Apples?\n(a) Green\n(b) Blue\n(c) Red\n\n",
+    "What is the color of Bananas?\n(a) Green\n(b) Yellow\n(c) Red\n\n",
+    "What is the color of Carrot?\n(a) Orange\n(b) Blue\n(c) Red\n\n",
+]
+
+questions = [
+    Question(question_prompts[0],"c"),
+    Question(question_prompts[1],"b"),
+    Question(question_prompts[2],"a"),
+]
+
+def run_test():
+    score = 0
+    for question in questions:
+        answer = input("Enter the correct option: \n" + question.prompt)
+        if answer == question.answer:
+            score += 1
+    print("Your Score is: " + str(score) + " out of " + str(len(questions)))
+
+run_test()
+
+# Output:
+Enter the correct option:
+What is the color of Apples?
+(a) Green
+(b) Blue
+(c) Red
+
+c
+Enter the correct option:
+What is the color of Bananas?
+(a) Green
+(b) Yellow
+(c) Red
+
+b
+Enter the correct option:
+What is the color of Carrot?
+(a) Orange
+(b) Blue
+(c) Red
+
+a
+Your Score is: 3 out of 3
+```

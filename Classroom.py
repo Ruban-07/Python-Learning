@@ -10,3 +10,8 @@ class Teacher:
         self.name = name
         self.subject = subject
         self.experience = experience
+        
+class Question:
+    def __init__(self,prompt,answer):
+        self.prompt = prompt
+        self.answer = answer
