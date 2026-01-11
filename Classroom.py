@@ -25,3 +25,12 @@ class Question:
     def __init__(self,prompt,answer):
         self.prompt = prompt
         self.answer = answer
+        
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+        
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+        

@@ -1007,3 +1007,25 @@ print(Student.student_performance(student_2.gpa))
 # Output:
 Outstanding Performance
 ```
+
+## Inheritance:
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+        
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+```
+
+```python
+from Classroom import Dog
+
+dog = Dog()
+dog.speak()
+
+# Output:
+Dog barks
+```
