@@ -969,3 +969,41 @@ What is the color of Carrot?
 a
 Your Score is: 3 out of 3
 ```
+
+## Object Functions:
+
+`Student` class with function:
+
+```python
+class Student:
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+
+    def student_performance(gpa):
+        if gpa >= 8:
+            return "Outstanding Performance"
+        elif gpa >= 5:
+            return "Excellent Performance"
+        elif gpa >= 3:
+            return "Improvement Required"
+        else:
+            return "Oops! you need to work hard and learn more"
+```
+
+Usage:
+
+```python
+from Classroom import Student
+
+student_1 = Student("Ruban", "Computer Applications",5.7,True)
+student_2 = Student("Sanjay", "Computer Applications",8.7,True)
+student_3 = Student("Raghavendar", "Computer Applications",3.7,True)
+
+print(Student.student_performance(student_2.gpa))
+
+# Output:
+Outstanding Performance
+```
