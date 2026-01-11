@@ -1014,7 +1014,7 @@ Outstanding Performance
 class Animal:
     def speak(self):
         print("Animal makes a sound")
-        
+
 class Dog(Animal):
     def speak(self):
         print("Dog barks")
@@ -1028,4 +1028,38 @@ dog.speak()
 
 # Output:
 Dog barks
+```
+
+## Python Interpreter:
+
+Without creating python files, we can run our python codes within our terminal itself.
+
+For that your machine should have python installed. Once you make sure that your machine have python:
+
+Open up your terminal and just run `python` and hit enter:
+
+```python
+python
+```
+
+or
+
+```python
+python3
+```
+
+Once the python interpreter is ready, it'll look like this:
+
+```python
+Python 3.14.2 (main, Dec 10 2025, 22:30:40) [GCC 15.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+>>>
+```
+
+There you can run your python codes:
+
+```python
+>>> print("Hello World!")
+Hello World!
 ```
