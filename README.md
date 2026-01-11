@@ -788,3 +788,18 @@ except ValueError as error:
 # Output:
 ERROR: invalid literal for int() with base 10: 'car'
 ```
+
+## Reading Files:
+
+The `open()` will help us to open a file by entering our file name in it and your opening purpose like `read`, `write`, `append` and more.
+
+Now we're gone a look into reading a file. For that the type should be `"r"`.
+
+To read the content inside the `employees.txt` file:
+
+```python
+employee_file = open("employees.txt","r")
+for employee in employee_file.readlines():
+    print(employee)
+employee_file.close()
+```
